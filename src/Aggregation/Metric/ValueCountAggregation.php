@@ -20,7 +20,6 @@ namespace OpenSearchDSL\Aggregation\Metric;
  */
 class ValueCountAggregation extends StatsAggregation
 {
-    #[\Override]
     public function getType(): string
     {
         return 'value_count';

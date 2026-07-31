@@ -26,7 +26,6 @@ class CollapseEndpoint extends AbstractSearchEndpoint
         return null;
     }
 
-    #[\Override]
     public function add(BuilderInterface $builder, ?string $key = null): string
     {
         if (! $builder instanceof FieldCollapse) {
@@ -46,7 +45,6 @@ class CollapseEndpoint extends AbstractSearchEndpoint
         return $this->key;
     }
 
-    #[\Override]
     public function getAll(?string $boolType = null): array
     {
         return [

@@ -45,7 +45,6 @@ class PercentilesBucketAggregation extends AbstractPipelineAggregation
         return $this;
     }
 
-    #[\Override]
     public function getArray(): array
     {
         $data = [

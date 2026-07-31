@@ -20,7 +20,6 @@ namespace OpenSearchDSL\Aggregation\Metric;
  */
 class AvgAggregation extends StatsAggregation
 {
-    #[\Override]
     public function getType(): string
     {
         return 'avg';

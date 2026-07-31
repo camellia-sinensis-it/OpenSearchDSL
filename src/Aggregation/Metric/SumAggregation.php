@@ -20,7 +20,6 @@ namespace OpenSearchDSL\Aggregation\Metric;
  */
 class SumAggregation extends StatsAggregation
 {
-    #[\Override]
     public function getType(): string
     {
         return 'sum';

@@ -27,7 +27,6 @@ class GlobalAggregation extends AbstractAggregation
 {
     use BucketingTrait;
 
-    #[\Override]
     public function setField($field): static
     {
         throw new LogicException("Global aggregation, doesn't support `field` parameter");

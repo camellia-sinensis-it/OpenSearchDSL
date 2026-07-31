@@ -26,7 +26,7 @@ class AdjacencyMatrixAggregation extends AbstractAggregation
 {
     use BucketingTrait;
 
-    final public const string FILTERS = 'filters';
+    final public const FILTERS = 'filters';
 
     /**
      * @var array<string, array<string, array|null>>

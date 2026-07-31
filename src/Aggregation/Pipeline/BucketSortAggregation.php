@@ -46,7 +46,6 @@ class BucketSortAggregation extends AbstractPipelineAggregation
         return 'bucket_sort';
     }
 
-    #[\Override]
     public function getArray(): array
     {
         return array_filter(
