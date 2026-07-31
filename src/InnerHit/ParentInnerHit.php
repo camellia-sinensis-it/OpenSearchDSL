@@ -6,7 +6,6 @@ namespace OpenSearchDSL\InnerHit;
 
 class ParentInnerHit extends NestedInnerHit
 {
-    #[\Override]
     public function getType(): string
     {
         return 'parent';

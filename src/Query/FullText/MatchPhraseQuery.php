@@ -21,7 +21,6 @@ namespace OpenSearchDSL\Query\FullText;
  */
 class MatchPhraseQuery extends MatchQuery
 {
-    #[\Override]
     public function getType(): string
     {
         return 'match_phrase';

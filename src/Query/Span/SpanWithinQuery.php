@@ -20,7 +20,6 @@ namespace OpenSearchDSL\Query\Span;
  */
 class SpanWithinQuery extends SpanContainingQuery
 {
-    #[\Override]
     public function getType(): string
     {
         return 'span_within';

@@ -42,13 +42,11 @@ class SpanNearQuery extends SpanOrQuery implements SpanQueryInterface
         return $this;
     }
 
-    #[\Override]
     public function getType(): string
     {
         return 'span_near';
     }
 
-    #[\Override]
     public function toArray(): array
     {
         $query = [];

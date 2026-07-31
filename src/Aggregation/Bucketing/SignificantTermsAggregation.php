@@ -20,7 +20,6 @@ namespace OpenSearchDSL\Aggregation\Bucketing;
  */
 class SignificantTermsAggregation extends TermsAggregation
 {
-    #[\Override]
     public function getType(): string
     {
         return 'significant_terms';

@@ -26,9 +26,9 @@ class HistogramAggregation extends AbstractAggregation
 {
     use BucketingTrait;
 
-    final public const string DIRECTION_ASC = 'asc';
+    final public const DIRECTION_ASC = 'asc';
 
-    final public const string DIRECTION_DESC = 'desc';
+    final public const DIRECTION_DESC = 'desc';
 
     private ?int $interval = null;
 
